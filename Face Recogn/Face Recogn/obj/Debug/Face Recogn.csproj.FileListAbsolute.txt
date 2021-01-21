@@ -1,0 +1,2 @@
+C:\Users\Ruben\source\repos\Face Recogn\Face Recogn\obj\Debug\Face Recogn.csprojAssemblyReference.cache
+C:\Users\Ruben\source\repos\Face Recogn\Face Recogn\obj\Debug\Face Recogn.csproj.CoreCompileInputs.cache
