@@ -43,27 +43,27 @@
                             <span id="error-msg"></span>
                         </div>
                     </div>
-                    <form action="POST">
+                    <form action="/upload" method="POST" enctype="multipart/form-data">
                         <div class="form-group mb-3">
                             <label for="fname" class="mb-2">First Name <p class="text-danger d-inline">*</p></label>
-                            <input class="form-control" type="text" id="f-name">
+                            <input class="form-control" name="fname" type="text" id="f-name">
                         </div>
                         <div class="form-group mb-3">
                             <label for="lname" class="mb-2">Last Name <p class="text-danger d-inline">*</p></label>
-                            <input class="form-control" type="text" id="l-name">
+                            <input class="form-control" type="text" name="lname" id="l-name">
                         </div>
                         <div class="form-group mb-5">
                             <label for="id" class="mb-2">Your ID <p class="text-danger d-inline">*</p></label>
-                            <input class="form-control" type="text" id="ID">
+                            <input class="form-control" name="id" type="text" id="ID">
                         </div>
                         <p class="note">Please Upload 2 images </p>
                         <div class="form-group mb-3 d-flex flex-column">
                             <label for="exampleFormControlFile1" class="mb-2">Image 1 <p class="text-danger d-inline">*</p></label>
-                            <input type="file" class="form-control-file" id="fimg" accept="image/*">
+                            <input type="file" class="form-control-file" name="img" id="fimg" accept="image/*">
                         </div>
                         <div class="form-group mb-3 d-flex flex-column">
                             <label for="exampleFormControlFile1" class="mb-2">Image 2 <p class="text-danger d-inline">*</p></label>
-                            <input type="file" class="form-control-file" id="simg" accept="image/*">
+                            <input type="file" class="form-control-file" name="img" id="simg" accept="image/*">
                         </div>
                         <button type="submit" class="primary-button">Submit</button>
                     </form>

@@ -9,6 +9,6 @@ Router.get('/home',(req,res)=>{
 Router.get('/register',(req,res)=>{
     res.render('register.ejs');
     res.end();
-})
+});
 
 module.exports = Router

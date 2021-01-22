@@ -12,12 +12,12 @@ const toggle = document.querySelector('.error');
 // error messages : 
 
 const NAME_ERR = "Invalid Input";
-const FILE_ERR = "No Files Selected";
+const FILE_ERR = "No Images Selected";
 
 // Check for name errors : 
 
 function CheckInputFailure(firstName,LastName,Id){
-    if(FirstName === "" || LastName ==="" || ID === ""){
+    if(FirstName === "" || LastName ==="" || Id === ""){
         ErrorElem.textContent = NAME_ERR;
         return 1;
     }
